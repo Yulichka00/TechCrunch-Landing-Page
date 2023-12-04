@@ -1,0 +1,167 @@
+.container {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  /*padding-left: 5px;
+  padding-right: 25px;*/
+  padding: 5px 35px 5px 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  /*padding: 5px;*/
+  
+}
+
+.logo {
+  width: 80px;
+}
+
+.join {
+  color: rgb(232, 170, 15);
+  font-weight: bold;
+}
+
+nav {
+  /*border: 1px solid red;*/
+  width: 350px;
+}
+
+.top-add {
+  display: flex;
+  /*padding: 10px;*/
+  border: 1px solid grey;
+  width: 70vw;
+  /*background: grey;*/
+}
+
+.add-image {
+  display: block;
+  /*padding: 20px;*/
+}
+
+div > h2 {
+  padding: 60px;
+  
+}
+
+.main-story-image {
+  width: 400px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.main-story {
+  display: block;
+  /*border: 1px solid red;*/
+  position: relative;
+  /*width: 400px;*/
+  width: 45%;
+
+
+}
+
+.stories {
+  /*border: 1px solid red;*/
+  /*width: 500px;*/
+  width: 30%;
+
+}
+
+.topic {
+  font-size: 14px;
+  color: green;
+  /*padding-bottom: 25px;*/
+}
+
+.name {
+  font-size: 14px;
+  font-style: bold;
+ 
+}
+
+div > .name {
+  padding-bottom: 15px;
+}
+
+
+
+.news-link {
+  display: column;
+  border-bottom: 1px solid grey;
+  padding-bottom: 5px;
+  margin-top: -10px;
+}
+
+.stories > .news-link:last-child {
+  border-top: 1px solid white;
+}
+
+
+.news-item {
+  
+}
+
+.main-section-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /*border: 2px solid blue;*/
+}
+
+.right-side-add-container {
+ display: inline-block;
+ margin: 15px;
+}
+
+.right-top-add {
+  width: 270px;
+  height: 100px;
+  border: 3px solid greenyellow;
+}
+
+.right-side-add-container div {
+  /*border: 3px solid greenyellow;*/
+  color: limegreen;
+  font-size: 20px;
+  /*padding-left: 15px;*/
+  padding-top: 2px;
+  text-align: center;
+}
+
+.right-side-add-container span {
+  color: black;
+  font-size: 16px;
+  text-align: right;
+  padding: 5px;
+}
+
+.bottom-add {
+  width: 280px;
+  margin-top: 40px;
+  border: 1px solid green;
+}
+
+.bottom-info {
+  display: flex;
+}
+
+
+.bottom-ad img {
+  
+}
+
+.register-now > p{
+  border-top: 3px solid limegreen;
+  text-align: center;
+  padding: 7px 0;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+}
